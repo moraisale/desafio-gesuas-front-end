@@ -3,7 +3,6 @@
 # Tecnologias utilizadas
   - Next.js (Framework JavaScript para front-end).
   - Tailwind CSS (estilização CSS).
-  - react-testing-library (testes)
   
 ## Passos para clonar e rodar o projeto
 
@@ -51,4 +50,3 @@ No diretório do projeto, você pode executar os seguintes comandos:
 - `yarn build`: Constrói o aplicativo para produção.
 - `yarn start`: Inicia o aplicativo em um ambiente de produção.
 - `yarn lint`: Executa a verificação de estilo com TypeScript e ESLint.
--  `yarn test`: Executa o teste com Jest.
