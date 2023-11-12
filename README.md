@@ -1,4 +1,4 @@
-# Teste Técnico para processo seletivo da Alpes One - Alexandre Morais
+# Desafio Gesuas Front End - Alexandre Morais
 
 # Tecnologias utilizadas
   - Next.js (Framework JavaScript para front-end).
