@@ -6,6 +6,7 @@ import Input from "@/components/Input/Input";
 import InputRadio from "@/components/Input/InputRadio";
 import { IObrigatoryFields } from "@/interfaces/IObrigatoryFields";
 import Layout from "@/layouts/layout";
+import Sidebar from "@/components/Sidebar/Sidebar";
 
 const biologicGenders = ["Masculino", "Feminino"];
 const races = ["Branca", "Preta", "Parda", "Índigena", "Amarela"];
@@ -58,7 +59,13 @@ export default function Home() {
   };
 
   return (
-    <Layout page="Cadastro">
+    <div className="flex w-100vw ml-[15%]">
+      <Sidebar />
+      <div className="fixed  w-full top-0">
+        <p className="text-projectBlue text-2xl font-bold py-4 pl-6 bg-white">
+          Cadastro
+        </p>
+      </div>
       <RegistrationCompleted open={open} onClose={handleCloseModal} />
       <form onSubmit={handleSubmitRegister} className="w-full">
         <div className="pt-[40px] w-full px-6">
@@ -320,6 +327,6 @@ export default function Home() {
           </div>
         </div>
       </form>
-    </Layout>
+    </div>
   );
 }
